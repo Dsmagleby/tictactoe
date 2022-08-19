@@ -39,7 +39,6 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
             this.Computer_timer = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -163,16 +162,6 @@
             this.button10.UseVisualStyleBackColor = true;
             this.button10.Click += new System.EventHandler(this.RestartGame);
             // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(621, 396);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(110, 26);
-            this.button11.TabIndex = 10;
-            this.button11.Text = "DebugAI";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.DebugAI);
-            // 
             // Computer_timer
             // 
             this.Computer_timer.Interval = 1000;
@@ -184,9 +173,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 51);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(124, 20);
+            this.label1.Size = new System.Drawing.Size(128, 20);
             this.label1.TabIndex = 11;
-            this.label1.Text = "Player wins - 0";
+            this.label1.Text = "Player Wins - 0";
             // 
             // label2
             // 
@@ -194,9 +183,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(12, 90);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(153, 20);
+            this.label2.Size = new System.Drawing.Size(157, 20);
             this.label2.TabIndex = 12;
-            this.label2.Text = "Computer wins - 0";
+            this.label2.Text = "Computer Wins - 0";
             // 
             // Form1
             // 
@@ -205,7 +194,6 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button8);
@@ -235,7 +223,6 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Timer Computer_timer;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
