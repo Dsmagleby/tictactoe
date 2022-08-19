@@ -272,5 +272,19 @@ namespace tictactoe
             }
             return true;
         }
+
+        private void ChangeMode(object sender, EventArgs e)
+        {
+            if (mode == "naive")                 // if mode is naive, change to minimax
+            {
+                mode = "minimax";
+                label3.Text = "Current mode: Minimax";
+            }
+            else                                  // if mode is minimax, change to naive
+            {
+                mode = "naive";
+                label3.Text = "Current mode: Naive";
+            }
+        }
     }
 }
